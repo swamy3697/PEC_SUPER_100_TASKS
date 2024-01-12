@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Main {
+public class Library {
     static HashMap<Integer,Member> members;
     static Scanner scanner;
     static Member member;
