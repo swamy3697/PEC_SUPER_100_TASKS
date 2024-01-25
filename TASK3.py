@@ -39,8 +39,7 @@ class products:
 class User:
     cart=list()
     history=list()
-    #product_Obj=Product
-    def _init_(self,name,age,address,user_id):
+    def __init__(self,name,age,address,user_id):
         self.name=name
         self.age=age
         self.address=address
@@ -161,5 +160,5 @@ def main():
             main() 
          
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     main()
