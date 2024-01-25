@@ -1,6 +1,6 @@
 import random
 class Product:
-    def _init_(self,productname,productPrice,productquantity):
+    def __init__(self,productname,productPrice,productquantity):
         self.productname=productname
         self.productPrice=productPrice
         self.productquantity=productquantity
@@ -160,5 +160,20 @@ def main():
             main() 
          
 
-if __name__ == "_main_":
+if __name__ == "__main__":
+    products.add_product("Laptop", 999, 5)
+    products.add_product("Phone", 599, 10)
+    products.add_product("Headphones", 99, 20)
+    products.add_product("Tablet", 799, 15)
+    products.add_product("Smartwatch", 199, 8)
+    products.add_product("Camera", 499, 12)
+    products.add_product("Speaker", 299, 25)
+    products.add_product("Printer", 199, 30)
+    products.add_product("Monitor", 299, 18)
+    products.add_product("Keyboard", 49, 22)
+    products.add_product("Mouse", 29, 35)
+    products.add_product("External Hard Drive", 129, 16)
+    products.add_product("Router", 79, 28)
+    products.add_product("Game Console", 399, 7)
+    products.add_product("Smart Home Device", 149, 11)
     main()
